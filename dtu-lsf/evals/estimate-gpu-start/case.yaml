@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: estimate-gpu-start
+expected_outcome: |
+  Gives an evidence-based start-time range for a hypothetical gpua100 job using live GPU availability, queue backlog, fairshare and running-job walltimes; notes showstart is not useful; does not submit a job.

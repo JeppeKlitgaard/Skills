@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: a100-80gb-job-script
+expected_outcome: |
+  Produces a #BSUB script for queue gpua100 that selects the 80 GB A100s, requests one GPU in exclusive_process mode with at least 4 cores, sets walltime around 30h within the 72h queue limit, sets per-core memory via rusage and span[hosts=1], and output files with %J.

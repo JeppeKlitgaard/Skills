@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: why-array-pending
+expected_outcome: |
+  Identifies from live LSF state that the array is pinned to host group rhpcice (-m) whose hosts are all closed by the admin, so it cannot start until they reopen or the request is widened; gives an honest start estimate and does not cancel anything.
